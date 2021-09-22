@@ -1,0 +1,33 @@
+{
+  "name": "noticeboard_restapi_mongodb_20210922",
+  "version": "1.0.0",
+  "description": "noticeBoard_restapi_mongodb_20210922",
+  "main": "index.js",
+  "scripts": {
+    "start" : "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junhee916/noticeBoard_restapi_mongodb_20210922.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/junhee916/noticeBoard_restapi_mongodb_20210922/issues"
+  },
+  "homepage": "https://github.com/junhee916/noticeBoard_restapi_mongodb_20210922#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.7",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
